@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestingForTest1(failed)">
+    <classes>
+      <class name="mypackage.test.TestDemo">
+        <methods>
+          <include name="google"/>
+          <include name="bing"/>
+          <include name="navigation"/>
+          <include name="flipkart"/>
+        </methods>
+      </class> <!-- mypackage.test.TestDemo -->
+    </classes>
+  </test> <!-- TestingForTest1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

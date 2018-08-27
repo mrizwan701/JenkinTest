@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <suite name="Suite"> -->
+<suite name="Suite" parallel="tests">
+	<test name="TestingForTest1" verbose="5">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="mypackage.test.TestDemo" />
+			<methods>
+				<include name="bing" />
+				<include name="google" />
+			</methods>
+<!-- 			<class name="mypackage.test.TestDemo3" /> -->
+		</classes>
+	</test>
+	
+	<test name="TestingForTest2" verbose="5">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="mypackage.test.TestDemo2" />
+		</classes>
+	</test>
+	
+	<test name="TestingForTest3" verbose="5">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="mypackage.test.TestDemo3" />
+		</classes>
+	</test>
+	
+	<!-- <test name="TestingForTest2" verbose="5">
+	<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="mypackage.test.TestDemo" />
+			<methods>
+				<include name="bing" />
+				<include name="google" />
+			</methods>
+			<class name="mypackage.test.TestDemo3" />
+		</classes>
+	</test> -->
+	
+<!-- 	E:\Rizwan\Drivers\apache-maven-3.5.3 -->
+	
+</suite> 
